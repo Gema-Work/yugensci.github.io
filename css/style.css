@@ -1,0 +1,60 @@
+* {
+  max-width: 100%;
+  color: whitesmoke;
+}
+
+body, html {
+  background: url("https://il.elysionrp.com/materials/yugends.png"), #19295A;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.textbox {
+  max-width: 120vh;
+  margin: auto;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.justify {
+  text-align: justify;
+}
+.center {
+  text-align: center;
+}
+.italic {
+  font-style: italic;
+}
+h1, h2, .underline{
+  text-decoration: underline;
+}
+
+.HorizontalList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.HorizontalList#x4 li {
+  max-width: calc(25% - 1rem);
+}
+
+.minihr {
+  width: 50%;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: large;
+  font-weight: 550;
+}
+

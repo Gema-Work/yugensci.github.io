@@ -1,0 +1,16 @@
+footer {
+    background: rgba(3, 18, 28, 0.8);
+    width: 100%;
+    bottom: 0;
+}
+.footer {
+    width: 78.25rem;
+    padding: 2px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-size: small;
+}

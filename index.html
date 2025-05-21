@@ -1,17 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Yugen - SCI Clover</title>
-
-        <style>
-            body {
-                background: url("https://il.elysionrp.com/materials/yugends.png"), #19295A;
-            }
-        </style>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Yugen Clover - SCI</title>
+		<link rel="icon" type="image/x-icon" href="assets/favicon_yugen.ico">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <script language="JavaScript" src="js/accueil.js"></script>
+        <script language="JavaScript" src="js/hierarchie.js"></script>
+        <script language="JavaScript" src="js/medicale.js"></script>
+        <script language="JavaScript" src="js/scien.js"></script>
     </head>
-    <body>
-        
+    <body onload="LoadAccueil();"></body> <!-- onload="LoadAccueil();" -->
+        <header>
+            <div class="header">
+                <img src="assets/yugen.png" alt="logo yugen">
+                <ul class="headerButtons">
+                    <li class="simpleButton"  onclick="LoadAccueil();">
+                        <a>Accueil</a>
+                    </li>
+                    <li class="simpleButton boxButton" onclick="LoadHierarchie();">
+                        <a>Hiérarchie</a>
+                    </li>
+                    <li class="simpleButton boxButton" onclick="LoadMedicale();">
+                        <a>Médicale</a>
+                    </li>
+                    <li class="simpleButton boxButton"  onclick="LoadScien();">
+                        <a>Recherche</a> <!-- Runique, Artéfacts -->
+                    </li>
+                </ul>
+                <a href="https://discord.gg/yugends"><img src="assets/discord.png"></a>
+            </div>
+        </header>
+        <div id="main">
+        </div>
+        <footer>
+            <div class="footer">
+                <p>© 2025 Yugen - SCI Clover</p>
+            </div>
+        </footer>
     </body>
 </html>
